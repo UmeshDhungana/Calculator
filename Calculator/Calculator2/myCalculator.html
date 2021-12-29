@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <link rel="stylesheet" href="myCalculator.css">
+      
+   </head>
+   <body>
+    <script src="../../JQuery/root/jquery.min.js"></script>
+    <script src="myCalculator.js"></script>
+
+      <div class="calculator">
+        
+        <!-- <input type="text" class="result" value="" readonly> -->
+        
+        <div class="output">
+          <div data-previous-operand class="previous-operand"></div>
+          <div data-current-operand class="current-operand"></div>
+        </div>
+
+        <div>
+          <button data-clear type="button" class="clear">AC</button>
+          <button data-delete type="button" class="back"> << </button>
+        </div>
+
+        <div>
+          <button data-num type="button" class="calc-btn">7</button>
+          <button data-num type="button" class="calc-btn">8</button>
+          <button data-num type="button" class="calc-btn">9</button>
+          <button data-operator type="button" class="calc-btn btn-operator">/</button>
+        </div>
+        <div>
+          <button data-num type="button" class="calc-btn">4</button>
+          <button data-num type="button" class="calc-btn">5</button>
+          <button data-num type="button" class="calc-btn">6</button>
+          <button data-operator type="button" class="calc-btn btn-operator">*</button>
+        </div>
+        <div>
+          <button data-num type="button" class="calc-btn">1</button>
+          <button data-num type="button" class="calc-btn">2</button>
+          <button data-num type="button" class="calc-btn">3</button>
+          <button data-operator type="button" class="calc-btn btn-operator">-</button>
+        </div>
+        <div>
+          <button data-num type="button" class="calc-btn">0</button>
+          <button data-num type="button" class="calc-btn">.</button>
+          <button data-equal type="button" class="equal">=</button>
+          <button data-operator type="button" class="calc-btn btn-operator">+</button>
+        </div>
+
+      </div>
+      
+   </body>
+</html>
